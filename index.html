@@ -87,31 +87,33 @@
   <header>
     <h1>🐾 SanaPatitas</h1>
     <p>Política de privacidad</p>
-    <small>Última actualización: 8 de noviembre de 2026</small>
+    <small>Última actualización: 10 de noviembre de 2026</small>
   </header>
 
   <p>
-    Bienvenido a SanaPatitas, también conocida como Bitácora para mascotas.
-    La privacidad de nuestros usuarios es importante. Esta política explica
-    qué información se administra, cómo se almacena y qué servicios externos
-    intervienen cuando utilizas SanaPatitas.
+    Bienvenido a SanaPatitas. La privacidad de nuestros usuarios es
+    importante. Esta política explica qué información administra la
+    aplicación, cómo se almacena y qué servicios externos intervienen
+    cuando utilizas sus funciones.
   </p>
 
   <p>
-    SanaPatitas está diseñada para administrar la información de tus mascotas
-    directamente desde tu dispositivo. No necesitas crear una cuenta para
-    utilizar sus funciones principales. Algunas funciones opcionales, como
-    las copias de seguridad, requieren iniciar sesión con una cuenta de Google.
+    SanaPatitas está diseñada para administrar la información de tus
+    mascotas directamente desde tu dispositivo. No necesitas crear
+    una cuenta ni iniciar sesión para utilizar sus funciones.
   </p>
 
   <h2>1. Información que administra la aplicación</h2>
 
-  <p>SanaPatitas permite registrar y administrar información relacionada con tus mascotas, como:</p>
+  <p>
+    SanaPatitas permite registrar y administrar información relacionada
+    con tus mascotas, como:
+  </p>
 
   <ul>
     <li>Nombre, especie, raza y fecha de nacimiento.</li>
     <li>Fotografías de tus mascotas.</li>
-    <li>Historial de salud.</li>
+    <li>Historiales de salud.</li>
     <li>Vacunaciones y desparasitaciones.</li>
     <li>Consultas veterinarias, cirugías y otros eventos.</li>
     <li>Fechas de próximos eventos y recordatorios.</li>
@@ -144,8 +146,8 @@
 
   <p>
     La información local puede perderse si desinstalas la aplicación,
-    borras sus datos o pierdes el dispositivo, salvo que cuentes con
-    una copia de seguridad.
+    borras sus datos o pierdes el dispositivo, salvo que previamente
+    hayas exportado una copia de seguridad y la conserves en otro lugar.
   </p>
 
   <h2>3. Fotografías y permisos del dispositivo</h2>
@@ -166,9 +168,9 @@
   </p>
 
   <p>
-    Cuando utilizas la función de copia de seguridad, las fotografías
-    seleccionadas se incluyen en el archivo de respaldo que se transfiere
-    a tu cuenta de Google Drive.
+    Cuando creas o exportas un respaldo, las fotografías seleccionadas
+    se incluyen en el archivo JSON de respaldo junto con la información
+    de tus mascotas.
   </p>
 
   <h2>4. Notificaciones y recordatorios</h2>
@@ -182,6 +184,11 @@
   <p>
     Estas notificaciones se programan en el dispositivo y su funcionamiento
     depende de los permisos y las condiciones del sistema operativo.
+  </p>
+
+  <p>
+    Cuando restauras un respaldo, SanaPatitas puede volver a programar
+    los recordatorios correspondientes a los registros recuperados.
   </p>
 
   <h2>5. Publicidad y servicios de terceros</h2>
@@ -261,28 +268,21 @@
     y prácticas de privacidad conforme a sus políticas correspondientes.
   </p>
 
-  <h2>6. Copias de seguridad en Google Drive</h2>
+  <h2>6. Copias de seguridad locales</h2>
 
   <p>
-    SanaPatitas ofrece una función opcional para crear copias de seguridad
-    de la información de tus mascotas en tu propia cuenta de Google Drive.
+    SanaPatitas ofrece funciones para crear copias de seguridad de la
+    información de tus mascotas directamente en el almacenamiento
+    privado de la aplicación dentro del dispositivo.
   </p>
 
   <p>
-    Para utilizar esta función, debes iniciar sesión y autorizar a
-    SanaPatitas a utilizar Google Drive mediante los permisos solicitados
-    por la aplicación.
+    Estas copias de seguridad no requieren iniciar sesión, crear una
+    cuenta ni conectar servicios de almacenamiento en la nube.
   </p>
 
   <p>
-    La aplicación utiliza el permiso limitado de Google Drive
-    <strong>drive.file</strong>, que permite gestionar los archivos
-    específicos creados o utilizados por la aplicación, en lugar de
-    solicitar acceso general a todos los archivos de tu Drive.
-  </p>
-
-  <p>
-    El archivo de respaldo puede contener:
+    Los respaldos pueden contener:
   </p>
 
   <ul>
@@ -293,61 +293,99 @@
   </ul>
 
   <p>
-    Puedes crear una copia de seguridad manualmente o activar la función
-    de respaldo automático. Cuando está activado, SanaPatitas programa
-    intentos de respaldo aproximadamente cada 24 horas.
+    El usuario puede crear respaldos manuales desde los ajustes de
+    la aplicación. Estos se guardan localmente en el almacenamiento
+    privado de SanaPatitas.
   </p>
 
   <p>
-    La ejecución automática depende de las condiciones y restricciones
-    del sistema operativo, por lo que no se garantiza una hora exacta
-    ni que el respaldo se ejecute diariamente sin interrupciones.
+    También puede activar la función de respaldo automático. Cuando
+    está activada, SanaPatitas programa intentos de respaldo
+    aproximadamente cada 24 horas.
   </p>
 
   <p>
-    SanaPatitas mantiene un único archivo de respaldo en Google Drive.
-    Cuando se crea una nueva copia, se reemplaza la anterior, por lo que
-    no se conserva un historial de múltiples respaldos.
+    El funcionamiento de las tareas automáticas depende de las
+    condiciones y restricciones del sistema operativo, por lo que
+    no se garantiza una hora exacta ni que el respaldo se ejecute
+    diariamente sin interrupciones.
   </p>
 
   <p>
-    Los archivos de respaldo se almacenan en la cuenta de Google Drive
-    del usuario. El desarrollador de SanaPatitas no recibe directamente
-    el contenido de esos archivos en servidores propios.
+    SanaPatitas conserva los tres respaldos automáticos más recientes.
+    Los respaldos manuales se mantienen de manera independiente y no
+    forman parte de esa rotación automática.
   </p>
 
   <p>
-    El usuario puede dejar de utilizar la función revocando el acceso
-    concedido a SanaPatitas desde la configuración de su cuenta de Google.
-    También puede administrar o eliminar el archivo de respaldo desde
-    su propio Google Drive.
+    Los respaldos locales permanecen en el almacenamiento privado
+    de la aplicación. No se envían automáticamente a servidores
+    externos ni a servicios de almacenamiento en la nube.
   </p>
 
   <p>
-    La eliminación de la aplicación del dispositivo no elimina
-    automáticamente la copia de seguridad que ya exista en Google Drive.
+    Es importante tener en cuenta que estos respaldos pueden perderse
+    si desinstalas SanaPatitas, borras los datos de la aplicación
+    o pierdes el dispositivo.
+  </p>
+
+  <h2>7. Exportación e importación de respaldos</h2>
+
+  <p>
+    SanaPatitas permite exportar una copia de seguridad en formato
+    JSON para que el usuario pueda compartirla o guardarla fuera
+    de la aplicación.
   </p>
 
   <p>
-    Puedes consultar las políticas de Google en:
+    Al utilizar la función de exportación, la aplicación genera un
+    archivo que puede contener la base de datos de SanaPatitas y las
+    fotografías de las mascotas. Android muestra las opciones disponibles
+    para compartir o guardar el archivo, según las aplicaciones instaladas
+    en el dispositivo.
   </p>
 
-  <ul>
-    <li>
-      <a href="https://policies.google.com/privacy"
-         target="_blank" rel="noopener noreferrer">
-        Política de privacidad de Google
-      </a>
-    </li>
-    <li>
-      <a href="https://www.google.com/drive/"
-         target="_blank" rel="noopener noreferrer">
-        Google Drive
-      </a>
-    </li>
-  </ul>
+  <p>
+    El usuario decide dónde guardar el archivo o con qué aplicación
+    compartirlo. Una vez que el archivo se transfiere a otro servicio
+    o ubicación, su almacenamiento, tratamiento y protección dependen
+    del servicio o aplicación elegidos por el usuario.
+  </p>
 
-  <h2>7. Conservación y eliminación de la información</h2>
+  <p>
+    El archivo exportado puede contener información personal o
+    confidencial introducida por el usuario, como notas, registros
+    veterinarios y fotografías. Recomendamos guardarlo en un lugar
+    seguro y compartirlo únicamente con personas de confianza.
+  </p>
+
+  <p>
+    La función de importación permite seleccionar un archivo JSON
+    de respaldo de SanaPatitas desde el dispositivo. La aplicación
+    verifica que el archivo tenga una estructura compatible antes
+    de intentar restaurar la información.
+  </p>
+
+  <p>
+    Al importar un respaldo válido, la información actual de la
+    aplicación se reemplaza por la información contenida en el
+    archivo seleccionado. También pueden restaurarse las fotografías
+    y programarse nuevamente los recordatorios correspondientes.
+  </p>
+
+  <p>
+    Se recomienda realizar una exportación del estado actual de
+    la información antes de importar otro respaldo, para conservar
+    una copia si fuera necesario recuperarla posteriormente.
+  </p>
+
+  <p>
+    El desarrollador de SanaPatitas no recibe directamente los
+    archivos exportados ni el contenido de los respaldos importados
+    en servidores propios.
+  </p>
+
+  <h2>8. Conservación y eliminación de la información</h2>
 
   <p>
     La información de las mascotas permanece almacenada localmente
@@ -362,15 +400,17 @@
   </p>
 
   <p>
-    También puede eliminar los datos locales borrando los datos de
-    la aplicación o desinstalándola. Estas acciones pueden provocar
-    la pérdida de información que no tenga una copia de seguridad.
+    También puede eliminar los datos locales borrando los datos
+    de la aplicación o desinstalándola. Estas acciones pueden
+    provocar la pérdida de información y de los respaldos locales
+    que no se hayan exportado previamente.
   </p>
 
   <p>
-    Las copias de seguridad almacenadas en Google Drive permanecen
-    en la cuenta del usuario hasta que sean reemplazadas o eliminadas.
-    Desinstalar SanaPatitas no elimina esos archivos automáticamente.
+    Los archivos JSON exportados permanecen en la ubicación donde
+    el usuario decidió guardarlos o compartirlos. Su eliminación
+    debe realizarse desde esa ubicación o mediante el servicio
+    utilizado para almacenarlos.
   </p>
 
   <p>
@@ -379,19 +419,19 @@
     de dichos proveedores.
   </p>
 
-  <h2>8. Seguridad de la información</h2>
+  <h2>9. Seguridad de la información</h2>
 
   <p>
-    SanaPatitas utiliza el almacenamiento local del dispositivo para
-    administrar la información de las mascotas y utiliza los servicios
-    de Google para las funciones opcionales que requieren conexión,
-    como las copias de seguridad y la publicidad.
+    SanaPatitas utiliza el almacenamiento privado del dispositivo
+    para administrar la información de las mascotas y guardar las
+    copias de seguridad locales.
   </p>
 
   <p>
-    Las transferencias realizadas mediante los servicios de Google
-    están sujetas a los mecanismos de seguridad y protección
-    implementados por dichos proveedores.
+    Los archivos exportados pueden quedar fuera del almacenamiento
+    privado de la aplicación. Por ello, el usuario es responsable
+    de elegir un destino seguro y proteger las copias que decida
+    compartir o conservar.
   </p>
 
   <p>
@@ -405,7 +445,7 @@
     seguridad absoluta.
   </p>
 
-  <h2>9. Privacidad de menores</h2>
+  <h2>10. Privacidad de menores</h2>
 
   <p>
     SanaPatitas no está diseñada específicamente para recopilar
@@ -414,7 +454,7 @@
     de su madre, padre o tutor legal.
   </p>
 
-  <h2>10. Cambios en esta política</h2>
+  <h2>11. Cambios en esta política</h2>
 
   <p>
     Esta política puede actualizarse cuando se incorporen nuevas
@@ -427,7 +467,7 @@
     donde se encuentre alojada esta política.
   </p>
 
-  <h2>11. Contacto</h2>
+  <h2>12. Contacto</h2>
 
   <p>
     Si tienes preguntas, comentarios o solicitudes relacionadas
